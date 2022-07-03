@@ -16,3 +16,15 @@ pip3 install dash-core-components
 ```
 python3 stock_app.py
 ```
+Stock price prediction is a machine learning project for beginners; a stock cost prediction model and how to build an interactive dashboard for stock analysis. stock market prediction using the LSTM model. OTOH, Plotly dash python framework for building dashboard.
+
+---
+# Final Product
+
+![StockPricePrediction](images/StockPricePrediction.gif)
+
+----
+# 🔗 Links - Rana Ahtsham
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ranahtsham)
+[![leetcode](https://img.shields.io/badge/leetcode-1DA1F2?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/ranahtsham)
+[![github](https://img.shields.io/badge/github-1DA1A0?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ranahtsham)

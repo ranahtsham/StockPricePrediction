@@ -12,7 +12,7 @@ server = app.server
 
 scaler = MinMaxScaler(feature_range=(0, 1))
 
-df_nse = pd.read_csv("dataset/NSE.csv")
+df_nse = pd.read_csv("data/NSE.csv")
 
 df_nse["Date"] = pd.to_datetime(df_nse.Date, format="%Y-%m-%d")
 df_nse.index = df_nse['Date']
@@ -64,7 +64,7 @@ train = new_data[:987]
 valid = new_data[987:]
 valid['Predictions'] = closing_price
 
-df = pd.read_csv("dataset/stock_data.csv")
+df = pd.read_csv("data/stock_data.csv")
 
 app.layout = html.Div([
 
